@@ -166,3 +166,11 @@ in the Software without restriction...
 Created and maintained by **KenpSoft**.
 
 If you use 1Tsu Cleaner and like it, consider starring the repository on GitHub to support the project.
+
+## Support
+
+If you like this project and want to support development, consider buying me a coffee:
+
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/1tsukenp)
+
+Your support helps me keep improving this tool and creating more useful utilities!

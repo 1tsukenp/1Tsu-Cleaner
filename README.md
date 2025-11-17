@@ -8,6 +8,10 @@ A lightweight, portable Windows cleaner that clears common junk in a single clic
 
 ---
 
+### Interface
+
+![1Tsu Cleaner UI](screenshots/1tsu-cleaner-ui.png)
+
 ## ✨ Features
 
 - **One‑click clean** – press _Clean Now_ and 1Tsu Cleaner does the rest.

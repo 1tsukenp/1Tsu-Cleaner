@@ -44,15 +44,6 @@ If a location or browser is not found on the machine, 1Tsu Cleaner logs it as `[
 
 ---
 
-## 📥 Download
-
-1. Go to the **Releases** page of this repository.  
-2. Download the latest `1Tsu Cleaner.exe` file.  
-3. Place it anywhere you like (Desktop, tools folder, USB drive, etc.).
-
-> The shipped EXE is **self‑contained** – it includes the .NET runtime, so you don’t need to install .NET separately.
-
----
 
 ## 🚀 Usage
 
@@ -94,78 +85,9 @@ Use this tool at your own risk, as with any system cleaner.
 
 ---
 
-## 🛠 Build from source
-
-1Tsu Cleaner is written in **C#** using **.NET (Windows)** and **Windows Forms**.
-
-### Prerequisites
-
-- Windows 10/11
-- [.NET SDK](https://dotnet.microsoft.com/download) that supports `net10.0-windows` (or adjust the target framework in the project file)
-- Optional: **Visual Studio** with ".NET desktop development" workload
-
-### Build with Visual Studio
-
-1. Clone this repository.
-2. Open `OneTsuCleanerGUI.sln` or the project in Visual Studio.
-3. Set configuration to **Release**.
-4. Build the solution.
-5. For a single self‑contained EXE:
-   - Right‑click the project → **Publish…**
-   - Target: **Folder**
-   - Runtime: `win-x64`
-   - Enable **Produce single file** and **Self‑contained**
-   - Publish and use the generated EXE from the `publish` folder.
-
-### Build with `dotnet` CLI
-
-```bash
-# From the OneTsuCleanerGUI project folder
- dotnet publish -c Release -r win-x64 -p:PublishSingleFile=true --self-contained true
-```
-
-The portable EXE will be under:
-
-```text
-bin/Release/net10.0-windows/win-x64/publish/OneTsuCleanerGUI.exe
-```
-
-You can rename it to `1Tsu Cleaner.exe` for distribution.
-
 ---
 
-## 📋 Roadmap / Ideas
 
-- [ ] Optional checkboxes for which areas to clean (browsers, Windows Update, Prefetch, etc.).
-- [ ] Progress bar for long clean operations.
-- [ ] Dark theme / additional UI skins.
-- [ ] Multi‑language support.
-
-Feel free to open issues or pull requests with suggestions.
-
----
-
-## 📄 License
-
-_Choose a license you prefer (e.g. MIT, Apache 2.0, GPL) and update this section and add a `LICENSE` file._
-
-Example if you decide to use MIT:
-
-```text
-Copyright (c) KenpSoft
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction...
-```
-
----
-
-## 🙌 Credits
-
-Created and maintained by **KenpSoft**.
-
-If you use 1Tsu Cleaner and like it, consider starring the repository on GitHub to support the project.
 
 ## Support
 

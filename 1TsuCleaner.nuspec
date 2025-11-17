@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>1TsuCleaner</id>
+    <version>1.0.0</version>
+    <authors>KenpSoft</authors>
+    <owners>1tsukenp</owners>
+    <licenseUrl>https://github.com/1tsukenp/1Tsu-Cleaner/blob/main/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/1tsukenp/1Tsu-Cleaner</projectUrl>
+    <iconUrl>https://github.com/1tsukenp.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>1Tsu Cleaner is a lightweight, portable Windows cleaner that clears common junk in a single click: temp files, browser caches, Windows Update cache, and Recycle Bin.</description>
+    <releaseNotes>
+      Initial release of 1Tsu Cleaner v1.0.0
+      
+      Features:
+      - One-Click Cleanup: Clean temp files, browser caches, Windows Update cache, and Recycle Bin
+      - Lightweight: Portable, single-file EXE (no installer required)
+      - Fast Performance: Quickly scans and removes junk files
+      - Safe: Removes only common system junk, safe for everyday use
+      
+      System Requirements:
+      - Windows 10/11 (64-bit)
+      - .NET Framework 4.8+
+    </releaseNotes>
+    <summary>A lightweight, portable Windows cleaner for removing junk files</summary>
+    <language>en-US</language>
+    <tags>cleaner utility windows cleanup junk temp-files portable</tags>
+    <dependencies>
+      <dependency id=".NETFramework4.8" version="[4.8]" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="1Tsu Cleaner.rar" target="tools" />
+  </files>
+</package>

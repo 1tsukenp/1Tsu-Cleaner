@@ -10,7 +10,7 @@ A lightweight, portable Windows cleaner that clears common junk in a single clic
 
 ### Interface
 
-![1Tsu Cleaner UI](screenshots/1tsu-cleaner-ui.png)
+![1Tsu Cleaner UI](screenshots/1tsu-cleaner-ui.PNG)
 
 ## ✨ Features
 
